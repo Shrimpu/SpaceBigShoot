@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29aa1b8c8a9c4674fb0a809674dc2836, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  duration: 30
+  spawnData:
+  - EnemyPrefab: {fileID: 32465923440862807, guid: 08c169021626a1c40b52186011cb6b1f,
+      type: 3}
+    initialWait: 0
+    timeBetweenSpawns: 35
+    timeFluctuation: 5
+    minTime: 16
+    spawnChance: 0.8
+  - EnemyPrefab: {fileID: 297754781644323583, guid: b63f3019c3299c94493b27d7a3b6fcf6,
+      type: 3}
+    initialWait: 4
+    timeBetweenSpawns: 45
+    timeFluctuation: 8
+    minTime: 42
+    spawnChance: 0.9
+  - EnemyPrefab: {fileID: 87761340826006632, guid: 9afbc6860d9838743900d07cd2bba08b,
+      type: 3}
+    initialWait: 1.1
+    timeBetweenSpawns: 39
+    timeFluctuation: 10
+    minTime: 5
+    spawnChance: 0.65
+  - EnemyPrefab: {fileID: 5910439152093770280, guid: d379acfa52fa3f54da457ae24eb4b4df,
+      type: 3}
+    initialWait: 8
+    timeBetweenSpawns: 30
+    timeFluctuation: 30
+    minTime: 10
+    spawnChance: 0.812
+  - EnemyPrefab: {fileID: 9085910602490108713, guid: c136b29390e80f049a173a167f07e0a1,
+      type: 3}
+    initialWait: 15
+    timeBetweenSpawns: 50
+    timeFluctuation: 5
+    minTime: 40
+    spawnChance: 1
+  - EnemyPrefab: {fileID: 5530616181858127201, guid: f2ff66605350da6469cd037c2f193a16,
+      type: 3}
+    initialWait: 0.5
+    timeBetweenSpawns: 40
+    timeFluctuation: 15
+    minTime: 30
+    spawnChance: 0.75
